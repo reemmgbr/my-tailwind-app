@@ -10,11 +10,11 @@ button {
   display: flex !important;
 }
 @font-face {
-  font-family: "AllGenders";
+  font-family: AllGenders;
   src: url("./fonts/All-Genders-Regular-v4.ttf") format("truetype");
 }
 body {
-  font-family: "All Genders", sans-serif;
+  font-family: AllGenders !important;
 }
 
 .swiper {

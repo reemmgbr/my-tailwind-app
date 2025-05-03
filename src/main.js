@@ -10,7 +10,7 @@ const swiper = new Swiper(".swiper", {
   loop: true,
   slidesPerView: 3,
   spaceBetween: 10,
-  modules: [Navigation],
+  modules: [Navigation, Pagination],
   breakpoints: {
     0: {
       slidesPerView: 1,
@@ -22,16 +22,11 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 3,
     },
   },
-  // If we need pagination
+  // pagination
   pagination: {
     el: ".swiper-pagination",
   },
 
-  // Navigation arrows
-  //   navigation: {
-  //     nextEl: ".custom-button-next",
-  //     prevEl: ".custom-button-prev",
-  //   },
 });
 
 document.querySelector("#app").innerHTML = `
