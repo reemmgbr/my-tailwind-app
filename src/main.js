@@ -19,8 +19,12 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 2,
     },
     1320: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
+  },
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
   },
 
   // Navigation arrows

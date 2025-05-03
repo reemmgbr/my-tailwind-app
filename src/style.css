@@ -10,10 +10,8 @@ button {
   display: flex !important;
 }
 @font-face {
-  font-family: "All Genders";
-  src: url("/src/fonts/All-Genders-Regular-v4.ttf") format("ttf");
-  font-weight: normal;
-  font-style: normal;
+  font-family: "AllGenders";
+  src: url("./fonts/All-Genders-Regular-v4.ttf") format("truetype");
 }
 body {
   font-family: "All Genders", sans-serif;
